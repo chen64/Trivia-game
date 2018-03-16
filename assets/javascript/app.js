@@ -1,6 +1,6 @@
 $(document).ready(function()
 {
-    var number = 30;
+    var number = 35;
     var right = 0;
     var wrong = 0;
     var blank = 7;
@@ -26,7 +26,6 @@ $(document).ready(function()
             $("#wrapper").hide(); 
             checkAnswer();
         }
-        $("timerUp").html("Out of Time")
         //check();
     }
 

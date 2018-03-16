@@ -7,7 +7,8 @@ h1{
     display: none;
     text-align: center;
     font-size: 18px;
-    background-color: orange;
+    background-color: white;
+    
 }
 
 #doneButton{
@@ -20,8 +21,9 @@ h1{
 }
 
 #startGame{
-    margin: center;
     position: relative;
+    left: 40%;
+    top: 120px;
     width: 300px;
     height: 200px;
     font-size: 30px;
