@@ -3,7 +3,7 @@ $(document).ready(function()
     var number = 30;
     var right = 0;
     var wrong = 0;
-    var blank = 0;
+    var blank = 7;
     $("input[type=radio]").on("change", function()
     {
         right = $("input[value=right]:checked").length;

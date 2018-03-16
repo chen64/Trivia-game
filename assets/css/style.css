@@ -6,7 +6,8 @@ h1{
 #wrapper{
     display: none;
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
+    background-color: orange;
 }
 
 #doneButton{
@@ -33,5 +34,11 @@ h1{
 }
 
 p{
+    font-size: 30px;
     font-style: bold;
+}
+
+body{
+    background-image:url("../images/grad.jpg");
+    background-size: cover;
 }
